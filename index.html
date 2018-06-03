@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/common.css";>
+<link rel="stylesheet" href="css/style.css";>
+<link rel="stylesheet" href="font/font_14gttqbsxfj38fr/iconfont.css";>
+<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+<script>
+window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+}
+</script>
+</head>
+<header>
+	<div class="hd_top clearfix">
+    	<span class="iconfont icon-fanhui fl"></span>
+        <p class="fl">Woman,Dresses</p>
+        <span class="iconfont icon-gouwuche-copy fr"><i>3</i></span>
+    </div>
+    <div class="hd_bottom clearfix">
+    	<a href="#" class="a1 fl">ADD TO WISHLIST</a>
+        <a href="#" class="a2 fr">ADD TO CART</a>
+    </div>
+    </div>
+</header>
+
+
+	<div class="banner">
+    	<img src="img/banner.gif";>
+        <div class="jiaqian clearfix">
+        	<p class="p1 fl">Elegant Pink Dresses</p>
+            <p class="p2 fr">$605,00</p>
+     	</div>
+    </div>
+    <div class="jia clearfix">
+        	<span class="sp1 p1 iconfont icon-jiahaocu fl"><i>Description</i></span>
+            
+    </div>    
+    <div class="zhong">
+    	<div class="zs">
+        	<span class="sp2 iconfont icon-shenghuoshui"><i>Colour:</i></span>
+            <p>Choose a colour for item</p>
+            <ul class="clearfix">
+            	<li class="fl"><img src="img/z1.gif";></li>
+                <li class="fl"><img src="img/z2.gif";></li>
+                <li class="fl"><img src="img/z3.gif";></li>
+            </ul>
+        </div>
+        <div class="zx">
+        	<span class="sp3 iconfont icon-hangeryijia"><i>Size:</i></span>
+            <p>Size available for this item</p>
+            <ul class="clearfix">
+            	<li class="fl">6</li>
+                <li class="fl">8</li>
+                <li class="fl">10</li>
+                <li class="fl">12</li>
+                <li class="fl">14</li>
+            </ul>
+        </div>
+    </div>
+    <div class="adc">
+    	<p>Add to Cart</p>
+    </div>
+    <div class="bottom">
+    	<h3>SHARE ON</h3>
+        <img src="img/tu.jpg"  alt="">
+    
+</div>
+<body>
+</body>
+</html>
